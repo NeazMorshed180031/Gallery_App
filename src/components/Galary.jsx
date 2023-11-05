@@ -213,7 +213,7 @@ export default function Galary({ galleryImages }) {
             <img src={icon} />
           </div>
           <div>
-            <p className="font-bold">{`${ids.length}`}File Selected</p>
+            <p className="font-bold">{`${ids.length>=2?`${ids.length}Files Selected`:`${ids.length}File Selected`}`}</p>
           </div>
         </div>
       </div>
